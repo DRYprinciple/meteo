@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovako je to bilo... :-)</title>
+    <style>
+        body {
+            font-family: Consolas, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #222;
+            color: #fff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background-color: #333;
+        }
+        .row {
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .label {
+            float: left;
+            color: #aade1a;
+        }
+        .value {
+            float: right;
+            color: #cfdde5;
+        }
+        /* Style for the first 4 rows */
+        .row:nth-child(-n+4) .label,
+        .row:nth-child(-n+4) .value {
+            font-size: 18px; 
+            color: #4c97c2;
+        }
+        /* Style for the first 4 rows */
+        .row:nth-child(-n+4) {
+            background-color: #444;
+            border: 1px solid #555;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px; /* Increased margin for separation */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="label">Ime stanice:</div>
+            <div class="value">ZAGREB MAKSIMIR</div>
+        </div>
+        <div class="row">
+            <div class="label">Godina:</div>
+            <div class="value">1981</div>
+        </div>
+        <div class="row">
+            <div class="label">Mjesec:</div>
+            <div class="value">4</div>
+        </div>
+        <div class="row">
+            <div class="label">Dan:</div>
+            <div class="value">8</div>
+        </div>
+        <div class="row">
+            <div class="label">Indikator podataka:</div>
+            <div class="value">DA</div>
+        </div>
+        <div class="row">
+            <div class="label">Aspirator:</div>
+            <div class="value"></div>
+        </div>
+        <div class="row">
+            <div class="label">Nadmorska visina (m):</div>
+            <div class="value">123</div>
+        </div>
+        <div class="row">
+            <div class="label">Vidljivost u 7 sati:</div>
+            <div class="value">2km do 3.9km</div>
+        </div>
+        <div class="row">
+            <div class="label">Vidljivost u 14 sati:</div>
+            <div class="value">4km do 9.9km</div>
+        </div>
+        <div class="row">
+            <div class="label">Vidljivost u 21 sat:</div>
+            <div class="value">4km do 9.9km</div>
+        </div>
+        <div class="row">
+            <div class="label">Naoblaka u 7 sati (desetine neba):</div>
+            <div class="value">0</div>
+        </div>
+        <div class="row">
+            <div class="label">Naoblaka u 14 sati (desetine neba):</div>
+            <div class="value">7</div>
+        </div>
+        <div class="row">
+            <div class="label">Naoblaka u 21 sat (desetine neba):</div>
+            <div class="value">10</div>
+        </div>
+        <div class="row">
+            <div class="label">Pojave uz naoblaku u 7 sati:</div>
+            <div class="value">rosa, sijanje sunca</div>
+        </div>
+        <div class="row">
+            <div class="label">Pojave uz naoblaku u 14 sati:</div>
+            <div class="value">sijanje sunca</div>
+        </div>
+        <div class="row">
+            <div class="label">Pojave uz naoblaku u 21 sat:</div>
+            <div class="value"></div>
+        </div>
+        <div class="row">
+            <div class="label">Smjer vjetra u 7 sati:</div>
+            <div class="value">NNW</div>
+        </div>
+        <div class="row">
+            <div class="label">Smjer vjetra u 14 sati:</div>
+            <div class="value">SSE</div>
+        </div>
+        <div class="row">
+            <div class="label">Smjer vjetra u 21 sat:</div>
+            <div class="value">N</div>
+        </div>
+        <div class="row">
+            <div class="label">Jačina vjetra u 7 sati (Beaufortova skala):</div>
+            <div class="value">1</div>
+        </div>
+        <div class="row">
+            <div class="label">Jačina vjetra u 14 sati (Beaufortova skala):</div>
+            <div class="value">1</div>
+        </div>
+        <div class="row">
+            <div class="label">Jačina vjetra u 21 sat (Beaufortova skala):</div>
+            <div class="value">2</div>
+        </div>
+        <div class="row">
+            <div class="label">Maksimalna temperatura (C):</div>
+            <div class="value">22.7</div>
+        </div>
+        <div class="row">
+            <div class="label">Minimalna temperatura (C):</div>
+            <div class="value">5.2</div>
+        </div>
+        <div class="row">
+            <div class="label">Temperatura zraka u 7 sati (C):</div>
+            <div class="value">7.6</div>
+        </div>
+        <div class="row">
+            <div class="label">Temperatura zraka u 14 sati (C):</div>
+            <div class="value">22.0</div>
+        </div>
+        <div class="row">
+            <div class="label">Temperatura zraka u 21 sat (C):</div>
+            <div class="value">15.1</div>
+        </div>
+        <div class="row">
+            <div class="label">Stanje tla u 7 sati:</div>
+            <div class="value">suho</div>
+        </div>
+        <div class="row">
+            <div class="label">Stanje tla u 14 sati:</div>
+            <div class="value">suho</div>
+        </div>
+        <div class="row">
+            <div class="label">Stanje tla u 21 sat:</div>
+            <div class="value">suho</div>
+        </div>
+        <div class="row">
+            <div class="label">Minimalna temperatura na 5 cm od tla (C):</div>
+            <div class="value">1.9</div>
+        </div>
+        <div class="row">
+            <div class="label">Tlak zraka u 7 sati (hPa):</div>
+            <div class="value">1007.6</div>
+        </div>
+        <div class="row">
+            <div class="label">Tlak zraka u 14 sati (hPa):</div>
+            <div class="value">1005.5</div>
+        </div>
+        <div class="row">
+            <div class="label">Tlak zraka u 21 sat (hPa):</div>
+            <div class="value">1005.5</div>
+        </div>
+        <div class="row">
+            <div class="label">Dnevna količina oborine (mm):</div>
+            <div class="value">0</div>
+        </div>
+        <div class="row">
+            <div class="label">Oblik oborine:</div>
+            <div class="value"></div>
+        </div>
+        <div class="row">
+            <div class="label">Visina ukupnog snježnog pokrivača (cm):</div>
+            <div class="value">0</div>
+        </div>
+        <div class="row">
+            <div class="label">Visina novog snježnog pokrivača (cm):</div>
+            <div class="value">0</div>
+        </div>
+        <div class="row">
+            <div class="label">Trajanje sijanja sunca (h):</div>
+            <div class="value">9.5</div>
+        </div>
+    </div>
+</body>
+</html>
